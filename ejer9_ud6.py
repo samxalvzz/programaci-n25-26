@@ -13,4 +13,7 @@ b) Implementar la función de forma recursiva.
 potencia = lambda a, b: a ** b
 
 # b) Implementar la función de forma recursiva.
-potencia = lambda a, b 
+potencia = lambda a, b
+
+# Todo junto:
+potencia = lambda a, b: 1 if b == else a * potencia(a, b -1)
